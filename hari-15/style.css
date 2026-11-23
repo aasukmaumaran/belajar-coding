@@ -1,0 +1,62 @@
+body {
+    background-color: #e2e8f0;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.kartu-api {
+    background-color: white;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.link-kembali {
+    display: block;
+    text-align: left;
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.teks-status {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.kotak-hasil {
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    min-height: 80px;
+}
+
+.teks-tanya {
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.teks-jawab {
+    color: #2563eb;
+    font-style: italic;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
