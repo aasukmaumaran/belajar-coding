@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pencari Profil GitHub - Hari 16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kartu-pencari">
+        <a href="../index.html" class="link-kembali">← Kembali ke Portofolio</a>
+        <h1>Pencari Profil GitHub</h1>
+
+        <div class="area-cari">
+            <input type="text" id="input-username" placeholder="Ketik username GitHub...">
+            <button id="tombol-cari">Cari</button>
+        </div>
+
+        <p id="pesan-status" class="teks-status"></p>
+
+        <!-- Wadah hasil profil (awalnya disembunyikan dengan style="display: none;") -->
+        <div id="wadah-profil" class="hasil-profil" style="display: none;">
+            <img id="foto-user" src="" alt="Avatar GitHub" class="avatar">
+            <h2 id="nama-user"></h2>
+            <p id="bio-user" class="bio"></p>
+
+            <div class="statistik">
+                <div>
+                    <strong id="jumlah-repo">0</strong>
+                    <span>Repository</span>
+                </div>
+                <div>
+                    <strong id="jumlah-follower">0</strong>
+                    <span>Followers</span>
+                </div>
+            </div>
+
+            <a id="link-profil" href="#" target="_blank" class="tombol-kunjungi">Kunjungi Profil</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
